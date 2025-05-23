@@ -1,0 +1,74 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: url('https://www.example.com/sua-imagem-de-fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Um fundo leve para destacar o texto */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #d4af37; /* Dourado, cor clássica da Grécia */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Estilos para as colunas */
+.columns {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.column {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.column h2 {
+    color: #d4af37; /* Dourado */
+    font-size: 1.8rem;
+}
+
+.column p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilo de colunas grega */
+.column::before {
+    content: "";
+    display: block;
+    height: 10px;
+    background: url('https://www.example.com/pattern-greek-column.png') repeat-x;
+    margin-bottom: 20px;
+}
