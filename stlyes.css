@@ -16,7 +16,7 @@ body {
     color: green;
   }
   75% {
-    color: yellow;
+    color: orange;
   }
   100% {
     color: purple;
@@ -25,5 +25,5 @@ body {
 
 .color-change {
   font-size: 2em;
-  animation: changeColor 5s infinite;
+  animation: changeColor 3s ease-in-out infinite;
 }
