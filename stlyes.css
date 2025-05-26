@@ -4,26 +4,3 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
-@keyframes changeColor {
-  0% {
-    color: red;
-  }
-  25% {
-    color: blue;
-  }
-  50% {
-    color: green;
-  }
-  75% {
-    color: orange;
-  }
-  100% {
-    color: purple;
-  }
-}
-
-.color-change {
-  font-size: 2em;
-  animation: changeColor 3s ease-in-out infinite;
-}
