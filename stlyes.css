@@ -3,7 +3,9 @@ body {
     background-color: #f4f4f4;
 }
 
-
+.banner{
+    display: block ;
+}
 
 .banner2{
     position: absolute;
